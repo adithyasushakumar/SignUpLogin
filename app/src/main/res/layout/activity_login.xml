@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="ae.bluecast.signuplogin.LoginActivity">
+
+
+    <EditText
+        android:background="@drawable/edittextstyle"
+        android:id="@+id/et1email"
+        android:layout_width="350dp"
+        android:hint="email"
+        android:textColor="#fff"
+        android:textColorHint="#b4aeae"
+        android:layout_marginLeft="20dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
+      />
+    <EditText
+        android:background="@drawable/edittextstyle"
+        android:id="@+id/et2pass"
+        android:hint="password"
+        android:textColor="#fff"
+        android:inputType="textPassword"
+        android:textColorHint="#f9f5f5"
+        android:layout_width="350dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="250dp"
+
+       />
+    <Button
+        android:textColor="#ffffff"
+        android:background="@drawable/bunstylesecor"
+        android:id="@+id/bt1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="20dp"
+        android:text="Login"
+       />
+    <Button
+        android:textColor="#fff"
+        android:background="@drawable/bunstylesecor"
+        android:id="@+id/bt2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="20dp"
+        android:text="Register"
+        />
+</RelativeLayout>
